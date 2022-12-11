@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="25.234">
+    <testcase classname="OS_TC_01" name="Ordnance_Survey_Specific_Objects_Functionality" time="24.983">
+        <system-out>
+            <![CDATA[Given Navigates to the home page............................................passed
+Then scroll down to click accept button.....................................passed
+When hover over the mouse on the header menu................................passed
+And verify API Dashboard is visible.........................................passed
+And verify Download is visible..............................................passed
+And verify Docs is visible..................................................passed
+And verify Support is visible...............................................passed
+And verify Pricing is visible...............................................passed
+When user click on Docs.....................................................passed
+And verify the list of the objects are on side menu.........................passed
+When click on ‘OS Downloads API’ link.......................................passed
+Then verify ‘Overview’ displayed............................................passed
+And verify ‘Getting started guide’ visible..................................passed
+And verify ‘Technical specification’ visible................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
