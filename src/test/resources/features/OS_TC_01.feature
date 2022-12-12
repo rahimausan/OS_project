@@ -1,20 +1,13 @@
 @Ordnance_Survey
 Feature: OS_TC_01
   Background:
-    Given Navigates to the home page
+    Given Launch the Browser and Navigate to home page
   Scenario: Ordnance_Survey_Specific_Objects_Functionality
-    Then scroll down to click accept button
-    When hover over the mouse on the header menu
-    And verify API Dashboard is visible
-    And verify Download is visible
-    And verify Docs is visible
-    And verify Support is visible
-    And verify Pricing is visible
-    When user click on Docs
-    And verify the list of the objects are on side menu
-    When click on ‘OS Downloads API’ link
-    Then verify ‘Overview’ displayed
-    And verify ‘Getting started guide’ visible
-    And verify ‘Technical specification’ visible
-#    And close the browser
-
+    Then Scroll down to click accept button
+    And User verifies that data hub page is loaded
+    And User verifies the dashboard page
+    And verify download page is loaded
+    Then User verifies support page is loaded successfully
+    And verify pricing page is loaded
+    When click on 'Docs’ page
+    And Verify the lists of objects on side menu by expanding the links

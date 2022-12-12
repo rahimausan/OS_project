@@ -24,4 +24,13 @@ public class OS_HomePage {
     @FindBy(xpath = "(//span[@class='MuiTab-wrapper'])[5]")
     public WebElement pricing;
 
+    @FindBy(xpath = "//div[@class=\"jss206\"]")
+    public WebElement dashboard;
+    @FindBy(xpath = "//*[@id=\"root\"]/div[2]/main/header")
+    public WebElement opendata;
+    @FindBy(xpath= "//*[@id=\"top\"]" )
+    public WebElement Support;
+    @FindBy(xpath = "//*[@id=\"root\"]/div[2]/main/header")
+    public WebElement Apiplan;
+
 }

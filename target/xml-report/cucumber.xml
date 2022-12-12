@@ -1,21 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="25.234">
-    <testcase classname="OS_TC_01" name="Ordnance_Survey_Specific_Objects_Functionality" time="24.983">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="24.466">
+    <testcase classname="OS_TC_01" name="Ordnance_Survey_Specific_Objects_Functionality" time="24.223">
         <system-out>
-            <![CDATA[Given Navigates to the home page............................................passed
-Then scroll down to click accept button.....................................passed
-When hover over the mouse on the header menu................................passed
-And verify API Dashboard is visible.........................................passed
-And verify Download is visible..............................................passed
-And verify Docs is visible..................................................passed
-And verify Support is visible...............................................passed
-And verify Pricing is visible...............................................passed
-When user click on Docs.....................................................passed
-And verify the list of the objects are on side menu.........................passed
-When click on ‘OS Downloads API’ link.......................................passed
-Then verify ‘Overview’ displayed............................................passed
-And verify ‘Getting started guide’ visible..................................passed
-And verify ‘Technical specification’ visible................................passed
+            <![CDATA[Given Launch the Browser and Navigate to home page..........................passed
+Then Scroll down to click accept button.....................................passed
+And User verifies that data hub page is loaded..............................passed
+And User verifies the dashboard page........................................passed
+And verify download page is loaded..........................................passed
+Then User verifies support page is loaded successfully......................passed
+And verify pricing page is loaded...........................................passed
+When click on 'Docs’ page...................................................passed
+And Verify the lists of objects on side menu by expanding the links.........passed
 ]]>
         </system-out>
     </testcase>
