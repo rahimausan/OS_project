@@ -39,6 +39,11 @@ public class OS_TC_02StepDefs {
     // 3) Then verify payload
     @Then("verify payload")
     public void verify_payload() {
-        System.out.println(responsePojo.getLinks()[0].getHref());
-    }
+        System.out.println(responsePojo.getLinks()[1].getHref());
+        System.out.println(responsePojo.getLinks()[1].getRel());
+        System.out.println(responsePojo.getLinks()[1].getType());
+        System.out.println(responsePojo.getLinks()[1].getTitle());
+        System.out.println(responsePojo.getLinks()[1].getDescription());
+
+   }
 }

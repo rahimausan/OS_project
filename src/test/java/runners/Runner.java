@@ -17,7 +17,7 @@ import org.junit.runner.RunWith;
         },
         features = "./src/test/resources/features",
         glue = {"stepdefinitions"},
-        tags = "@Ordnance_Survey",
+        tags = "@OSapi",
         dryRun = false
 
 )
